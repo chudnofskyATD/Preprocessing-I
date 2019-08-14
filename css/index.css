@@ -134,3 +134,112 @@ html,
 body {
   height: 100%;
 }
+:root {
+  font-size: 100%;
+}
+@media (max-width: 550px) {
+  :root {
+    font-size: 150%;
+  }
+}
+.container {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 800px;
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+h1 {
+  color: #FF4D00;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Segoe UI';
+  font-size: 1rem;
+}
+p,
+li,
+table {
+  font-family: verdana;
+  font-size: 0.8rem;
+}
+.navigation {
+  height: 80px;
+  width: 100%;
+  position: right;
+}
+.navigation .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+@media (max-width: 550px) {
+  .navigation .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.navigation .navbar a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: #FF4D00;
+  font-size: 1rem;
+  font-family: 'Segoe UI';
+  padding-top: 10px;
+}
+.navigation .navbar a:hover {
+  color: black;
+  background-image: linear-gradient(to right, #E7484F, #E7484F 16.65%, #F68B1D 16.65%, #F68B1D 33.3%, #FCED00 33.3%, #FCED00 49.95%, #009E4F 49.95%, #009E4F 66.6%, #00AAC3 66.6%, #00AAC3 83.25%, #732982 83.25%, #732982 100%, #E7484F 100%);
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  background-color: #dee4f7;
+}
+.profile {
+  width: inherit;
+}
+#button {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #60a3bc;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+img.profile {
+  width: 30%;
+  height: auto;
+}
+@media (max-width: 550px) {
+  img.profile {
+    display: none;
+  }
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.skills2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.workHistory {
+  background-color: #dee4f7;
+}
+.copyright {
+  background-image: linear-gradient(to right, #E7484F, #E7484F 16.65%, #F68B1D 16.65%, #F68B1D 33.3%, #FCED00 33.3%, #FCED00 49.95%, #009E4F 49.95%, #009E4F 66.6%, #00AAC3 66.6%, #00AAC3 83.25%, #732982 83.25%, #732982 100%, #E7484F 100%);
+  text-align: center;
+}
