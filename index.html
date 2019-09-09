@@ -7,6 +7,8 @@
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet/less" type="text/css" href="styles.less" /> -->
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +16,79 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <div class="navigation">
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    <div class="intro">
+      <div class="intro1">
+        <img class="profile" src="image/profile.jpg" alt="profile photo">
+      </div>
+      <div class="intro2">
+        <h1>Samuel M. Annor - Ardent Web Dev</h1>
+        <p>I make your life simple and easy</p>
+        <p>I am availalble to help improve your systems</p>
+        <button id="button">Let's Work Together</button>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="skills1">
+        <h2>My Mission</h2>
+        <p>A highly determined Full Stack Web Developer,
+          <br>
+        autonomous and cooperative attitude.</p>
+        <p>Currently working in a technical capcity as a senior engineer and 
+        <br>
+        looking forward to mastering cryptoassets, information systems
+        <br>
+        and communications as a long term career objective.</p>
+      </div>
+      <div class="skills2">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML5 - Intermediate</li>
+          <li>CSS3 - Intermediate</li>
+          <li>Javascript - Expert</li>
+          <li>Python - Beginner</li>
+        </ul>
+      </div>
+    </div>
+    <div class="workHistory">
+      <h2>Work History</h2>
+      <table>
+        <tr>
+          <th>Years</th>
+          <th>Company</th>
+          <th>Title</th>
+          <th>Tech Used</th>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Buy Coins Africa</td>
+          <td>Senior Full Stack Developer</td>
+          <td>React</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Unicef Ghana</td>
+          <td>Associate Web Developer</td>
+          <td>Ruby</td>
+        </tr>
+        <td>1</td>
+        <td>Babaloki Solutions</td>
+        <td>Junior Front End Developer</td>
+        <td>Javascript</td>
+      </table>
+    </div>
+    <div class="copyright">
+      <p>Copyright 2009</p>
+    </div>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
 </body>
 </html>
